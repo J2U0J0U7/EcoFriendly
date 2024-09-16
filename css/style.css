@@ -1,0 +1,34 @@
+/* Custom Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-image: url(../img/Firefly\ clear\ lake\ background\ that\ fits\ into\ website\ 97311.jpg)
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+}
+
+.feature-box {
+    padding: 20px;
+   
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.feature-box:hover {
+    transform: translateY(-10px);
+}
+
+#contact form input, #contact form textarea {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section {
+        height: 60vh;
+    }
+    
+}
